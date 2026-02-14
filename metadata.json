@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Kamal Hydrology",
+  "description": "منصة كمال هيدرولوجي المتقدمة لتحليل جودة المياه، حساب مؤشرات الشرب والري، والتحليل البحثي الذكي.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

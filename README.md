@@ -1,20 +1,20 @@
-# Kamal-hydrology
-this app for water quality index
-هذا التطبيق هو أداة بحثية تهدف إلى تقييم جودة المياه الجوفية أو السطحية بطريقة مبسطة ودقيقة. تم تطويره لدعم الباحثين في مجال الهيدرولوجيا والعلوم البيئية 2. الأهداف (Objectives)
-حساب مؤشر جودة المياه (WQI) بناءً على معايير منظمة الصحة العالمية (WHO).
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-تقديم تصنيف فوري لنوعية المياه (مثل: ممتازة، جيدة، ملوثة).
+# Run and deploy your AI Studio app
 
-تسهيل عملية تحليل البيانات الكيميائية والفيزيائية للعينات المائية.المعايير المستخدمة (Parameters)
-يتيح التطبيق إدخال وتحليل المعايير التالية:
+This contains everything you need to run your app locally.
 
-الأس الهيدروجيني (pH)
+View your app in AI Studio: https://ai.studio/apps/drive/1B-uxPVZk6HfnGz-_Xz_3Undkp0oMoYp4
 
-الأكسجين المذاب (DO)
+## Run Locally
 
-العكارة (Turbidity)
+**Prerequisites:**  Node.js
 
-التوصيل الكهربائي (EC)
 
-وغيرها من العناصر الكيميائية.المراجع العلمية (References)
-تم بناء الخوارزمية استناداً إلى الأبحاث العلمية المعتمدة في حساب الـ WQI لضمان موثوقية النتائج للباحثين
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
